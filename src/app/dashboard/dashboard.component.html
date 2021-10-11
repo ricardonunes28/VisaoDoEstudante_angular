@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <form #dadosForm="ngForm">
+        <input class="form-control" type="number" id="numMortes" name="numMortes" [(ngModel)]="dado.numMortes">
+        <select class="form-select" name="mes" id="mes" [(ngModel)]="dado.mesArr[0]">
+            <option value="6">Junho</option>
+            <option value="7">Julho</option>
+            <option value="8">Agosto</option>
+            <option value="9">Setembro</option>
+        </select>
+        <br>
+        <button class="btn btn-outline-primary col-12 mx-auto" (click)="atualizarDados()">Atualizar</button>
+    </form>
+    <br>
+    <div>
+        <div id="3d_pie_chart"></div>
+    </div>
+</div>

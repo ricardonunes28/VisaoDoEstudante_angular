@@ -1,0 +1,18 @@
+
+@media (max-width: 576px) {
+#video{
+    height: 70vh;
+    width: 70vh;
+}
+}
+
+ul, li{
+    list-style: none;
+}
+
+img, iframe{
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+		-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+		box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
