@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container col-xxl-8 px-4 py-5">
     <form #dadosForm="ngForm">
         <input class="form-control" type="number" id="numMortes" name="numMortes" [(ngModel)]="dado.numMortes">
         <select class="form-select" name="mes" id="mes" [(ngModel)]="dado.mesArr[0]">
@@ -11,7 +11,7 @@
         <button class="btn btn-outline-primary col-12 mx-auto" (click)="atualizarDados()">Atualizar</button>
     </form>
     <br>
-    <div>
-        <div id="3d_pie_chart"></div>
+    <div class="container col-xxl-8 px-4 py-5">
+        <div id="3d_pie_chart" ></div>
     </div>
 </div>
