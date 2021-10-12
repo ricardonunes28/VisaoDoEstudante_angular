@@ -1,8 +1,17 @@
 .whatsapp {
     position: fixed;
-    top: 72%;
+    top: 62%;
     left: 1%;
     padding: 10px;
     z-index: 10000000;
    
   }
+
+.gitHub{
+  position: fixed;
+  top: 72%;
+  left: 1%;
+  padding: 10px;
+  z-index: 10000000;
+ 
+}

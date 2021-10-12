@@ -16,3 +16,7 @@ img, iframe{
 		box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
+#angularImg{
+    width: 7vw;
+}
+
