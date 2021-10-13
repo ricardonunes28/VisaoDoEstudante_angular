@@ -5,6 +5,7 @@ import { DashboardaRoutes } from './dashboard/dashboard-routing.module';
 import { dataBindingsRoutes } from './data-bindings/data-bindings-routing.module';
 import { homeRoutes } from './home/home-component-routing.module';
 import { ambienteRoutes } from './preparacao-ambiente/preparacao-ambiente-routing.module';
+import { TarefaRoutes } from './tarefas';
 
 const routes: Routes = [
   {
@@ -16,7 +17,8 @@ const routes: Routes = [
   ...dataBindingsRoutes,
   ...ambienteRoutes ,
   ...calculadoraRoutes,
-  ...DashboardaRoutes
+  ...DashboardaRoutes,
+  ...TarefaRoutes
   
 ];
 

@@ -8,6 +8,7 @@ import { DashboardModule } from './dashboard';
 import {DataBindingsModule } from './data-bindings';
 import { HomeModule } from './home';
 import { PreparacaoAmbienteModule } from './preparacao-ambiente';
+import { TarefasModule } from './tarefas';
 
 
 
@@ -23,6 +24,7 @@ import { PreparacaoAmbienteModule } from './preparacao-ambiente';
     PreparacaoAmbienteModule,
     CalculadoraModule,
     DashboardModule,
+    TarefasModule,
 
     AppRoutingModule
   ],
